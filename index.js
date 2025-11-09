@@ -31,6 +31,10 @@ app.get('/macel', (req, res) => {
    });
 })
 
+app.get('/abas', (req, res) => {
+   res.render('abas', {
+   });
+})
 app.get('/user-login', (req, res) => {
    var {username,password} = req.query;
    if (username=='hossein' && password=='12345'){
