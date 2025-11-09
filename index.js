@@ -36,6 +36,11 @@ app.get('/abas', (req, res) => {
    res.render('abas', {
    });
 })
+
+app.get('/arosi', (req, res) => {
+   res.render('arosi', {
+   });
+})
 app.get('/user-login', (req, res) => {
    var {username,password} = req.query;
    if (username=='hossein' && password=='12345'){
