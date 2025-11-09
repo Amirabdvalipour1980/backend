@@ -14,27 +14,12 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')))
 
 
-app.get('/', (req, res) => {
-    var name = 'hossein'
-   res.render('home', {
-      name
-   });
-})
 
 app.get('/login', (req, res) => {
    res.render('login', {
    });
 })
 
-app.get('/macel', (req, res) => {
-   res.render('macel', {
-   });
-})
-
-app.get('/abas', (req, res) => {
-   res.render('abas', {
-   });
-})
 app.get('/user-login', (req, res) => {
    var {username,password} = req.query;
    if (username=='hossein' && password=='12345'){
