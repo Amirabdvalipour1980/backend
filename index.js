@@ -4,6 +4,7 @@ const https = require('https');
 const express = require('express');
 const path = require('path');
 const app = express();
+import messagebox
 
 var cert=fs.readFileSync('ssl/server.crt','utf8')
 var key=fs.readFileSync('ssl/server.key','utf8')
@@ -13,6 +14,11 @@ app.set('views', path.join(__dirname, 'views'));
 
 app.use(express.static(path.join(__dirname, 'public')))
 
+def on_click():
+   if             
+        messagebox.showinfo('آفرین جواب شما درست است' )
+   else: 
+       messagebox.showinfo('in yek info ast', 'جواب شما غلت است' )
 
 app.get('/', (req, res) => {
     var name = 'hossein'
