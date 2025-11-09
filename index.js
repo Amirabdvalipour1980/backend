@@ -15,4 +15,18 @@ app.get('/', (req, res) => {
    });
 })
 
+app.get('/login', (req, res) => {
+   res.render('login', {
+   });
+})
+
+app.get('/user-login', (req, res) => {
+   var {username,password} = req.query;
+   if (username=='hossein' && password=='12345'){
+      res.send('نام کاربری شما با موفقیت ثبت شد')
+   }
+   else{
+      res.send('نام کاربری شما اشتباه است')
+   }
+})
 app.listen(3000);
