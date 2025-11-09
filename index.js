@@ -1,3 +1,5 @@
+const http = require('http');
+const https = require('https');
 const express = require('express');
 const path = require('path');
 const app = express();
@@ -29,4 +31,7 @@ app.get('/user-login', (req, res) => {
       res.send('نام کاربری شما اشتباه است')
    }
 })
-app.listen(3000);
+var httpserver=http.createServer(app)
+var httpsserver=https.createServer(app)
+httpserver.listen(3000)
+httpsserver.listen(443)
