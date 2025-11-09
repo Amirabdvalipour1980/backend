@@ -140,7 +140,23 @@ footer .column{
     flex: 1;
     margin: 20px;
 }
-footer .column a{
-    color: white;
-    text-decoration: none;
+h1.section-title{
+    text-align: center;
+    color: blue;
+    border-bottom: 2px solid blue;
+    width: 40%;
+    margin: auto;
+    margin: auto;
+    padding: auto;
+    margin-top: 100px;
+}
+h2.section-title{
+    text-align: center;
+    color: blue;
+    border-bottom: 2px solid blue;
+    width: 40%;
+    margin: auto;
+    margin: auto;
+    padding: auto;
+    margin-top: 100px;
 }
