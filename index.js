@@ -27,7 +27,7 @@ app.get('/login', (req, res) => {
 })
 
 app.get('/macel', (req, res) => {
-   res.render('login', {
+   res.render('macel', {
    });
 })
 
