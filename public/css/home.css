@@ -151,3 +151,45 @@ img{
     display:block;
     margin-top: 60px;
 }
+.card-view {
+  display: flex;
+  flex-wrap: wrap; /* وقتی عرض کم باشه میره خط بعد */
+  justify-content: center; /* وسط‌چین کردن آیتم‌ها */
+  gap: 20px; /* فاصله بین عکس‌ها */
+  margin: 20px 0;
+}
+
+.card-view .item {
+  display: flex;
+  flex-direction: column; /* متن زیر عکس قرار بگیره */
+  align-items: center;
+  width: 250px; /* عرض هر کارت */
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card-view .item:hover {
+  transform: scale(1.05);
+}
+
+.card-view .item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-view .item h1 {
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.card-view .item .date {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+}
