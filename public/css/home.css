@@ -1,116 +1,6 @@
-@font-face {
-    font-family: 'iransans';
-    src: url('iransans.ttf');
-}
-
-body {
-    padding: 0;
-    margin: 0;
-    direction: rtl;
-    text-align: right;
-    font-family: 'iransans';
-}
-
-/* ناوبری */
-nav {
-    background-color: #eaeaea;
-    padding: 20px 100px;
-    display: flex;
-    align-items: center;
-}
-
-nav .links {
-    display: flex;
-    gap: 20px;
-    flex: 6;
-}
-
-nav a {
-    color: #2c1627;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 16px;
-}
-
-nav a:hover {
-    color: coral;
-}
-
-nav .searchbar {
-    flex: 2;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    background-color: #bdc2c4;
-    border-radius: 10px;
-    padding: 5px 10px;
-}
-
-nav .searchbar input {
-    border: none;
-    background: transparent;
-    flex: 1;
-    font-family: 'iransans';
-}
-
-nav .login-register {
-    flex: 2;
-    text-align: left;
-}
-
-nav .login-register a {
-    text-decoration: none;
-    color: #2c1627;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-}
-
-/* هدر */
-header {
-    display: flex;
-    flex-direction: row;
-    padding: 50px 100px;
-    align-items: center;
-    gap: 30px;
-}
-
-header .info {
-    flex: 1;
-}
-
-header .info h1 {
-    font-size: 45px;
-    margin-bottom: 20px;
-}
-
-header .info p {
-    font-size: 20px;
-    margin-bottom: 20px;
-}
-
-header .info a {
-    font-size: 18px;
-    color: white;
-    background-color: blue;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 10px;
-}
-
-header img {
-    flex: 1;
-    width: 100%;
-    max-width: 400px;
-    border-radius: 10px;
-}
-
-/* گالری */
 .gallery {
     text-align: center;
-    padding: 40px 20px;
+    padding: 50px 20px;
 }
 
 .gallery h2 {
@@ -129,7 +19,7 @@ header img {
 }
 
 .image-gallery .card {
-    width: 200px; /* عرض کارت */
+    width: 250px; /* عرض کارت */
     border: 1px solid #ddd;
     border-radius: 12px;
     overflow: hidden;
@@ -144,51 +34,24 @@ header img {
 }
 
 .image-gallery .card img {
-    width: 100%;
-    height: 150px; /* ارتفاع دلخواه */
+    width: 100%;  /* تصویر کل عرض کارت را پر می‌کند */
+    height: auto; /* ارتفاع به طور خودکار با عرض تغییر می‌کند */
     object-fit: cover;
 }
 
 .image-gallery .card h3 {
     margin: 10px 0 5px;
     font-size: 18px;
-    color: #222;
 }
 
 .image-gallery .card p {
+    margin-bottom: 10px;
     font-size: 14px;
     color: #555;
-    margin-bottom: 10px;
 }
+img { width:100%; } 
+.card-view .item img { width:10%; height:18px; } 
 
-/* فوتر */
-footer {
-    background-color: #3f3f3f;
-    color: white;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 50px 100px;
-}
-
-footer .column {
-    flex: 1;
-    min-width: 150px;
-}
-
-footer .column a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    margin: 5px 0;
-}
-
-/* تنظیم تصاویر عمومی (بدون تاثیر روی گالری) */
-img:not(.card img) {
-    max-width: 100%;
-    height: auto;
-    display: block;
-}
 
 
 
