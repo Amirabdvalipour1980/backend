@@ -1,4 +1,3 @@
-/* گالری */
 .gallery {
     text-align: center;
     padding: 50px 20px;
@@ -15,14 +14,14 @@
 /* کانتینر کارت‌ها */
 .image-gallery {
     display: flex;
-    flex-wrap: wrap;        
-    justify-content: center; 
-    gap: 20px;              
+    flex-wrap: wrap;       /* وقتی جا کم شد، به خط بعد می‌رود */
+    justify-content: center;
+    gap: 20px;             /* فاصله بین کارت‌ها */
 }
 
 /* کارت‌ها */
 .image-gallery .card {
-    width: 25px;           
+    width: 200px;          /* عرض کارت */
     border: 1px solid #ddd;
     border-radius: 12px;
     overflow: hidden;
@@ -36,17 +35,17 @@
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-/* تصاویر داخل کارت فقط */
+/* تصویر داخل کارت */
 .image-gallery .card img {
-    width: 10%;   /* تصویر کل عرض کارت را پر می‌کند */
-    height: auto;  /* ارتفاع نسبت به عرض تغییر می‌کند */
+    width: 100%;   /* تصویر کل عرض کارت را پر می‌کند */
+    height: auto;  /* ارتفاع به صورت خودکار و نسبت حفظ می‌شود */
     display: block;
 }
 
-/* عنوان و متن */
+/* عنوان و متن کارت */
 .image-gallery .card h3 {
     margin: 10px 0 5px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .image-gallery .card p {
@@ -54,7 +53,6 @@
     font-size: 14px;
     color: #555;
 }
-
 
 
 
