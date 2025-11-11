@@ -290,15 +290,19 @@ img{
   margin-bottom: 15px;
 }
 .image-gallery {
-    display: flex;             /* کنار هم قرار گرفتن تصاویر */
-    justify-content: center;   /* وسط‌چین کردن */
-    gap: 20px;                 /* فاصله بین تصاویر */
+    display: flex;              /* تصاویر کنار هم قرار می‌گیرند */
+    justify-content: center;    /* وسط‌چین کردن تصاویر */
+    gap: 20px;                  /* فاصله بین تصاویر */
+    margin: 50px 0;             /* فاصله از بالا و پایین */
 }
 
 .image-gallery img {
-    width: 300px;              /* عرض هر تصویر */
-    height: 200px;             /* ارتفاع ثابت */
-    object-fit: cover;         /* بدون کشیدگی */
-    border-radius: 10px;       /* گوشه‌های گرد */
+    width: 300px;               /* عرض تصویر */
+    height: auto;               /* ارتفاع متناسب با عرض */
+    max-height: 400px;          /* ارتفاع حداکثر */
+    object-fit: cover;          /* بدون کشیدگی تصویر */
+    border-radius: 10px;        /* گوشه‌های گرد */
+    display: block;
 }
+
 
