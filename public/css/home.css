@@ -289,4 +289,16 @@ img{
   color: #555;
   margin-bottom: 15px;
 }
+.image-gallery {
+    display: flex;             /* کنار هم قرار گرفتن تصاویر */
+    justify-content: center;   /* وسط‌چین کردن */
+    gap: 20px;                 /* فاصله بین تصاویر */
+}
+
+.image-gallery img {
+    width: 300px;              /* عرض هر تصویر */
+    height: 200px;             /* ارتفاع ثابت */
+    object-fit: cover;         /* بدون کشیدگی */
+    border-radius: 10px;       /* گوشه‌های گرد */
+}
 
