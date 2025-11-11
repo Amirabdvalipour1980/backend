@@ -111,18 +111,18 @@ h1.section-title{
 }
 .card-view .item img{
     display: block;
-    width: 100%;
+    width: 10%;
     border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-right-radius: 2px;
 }
 .card-view .item h1{
     font-size: 20px;
     margin: 0;
-    padding: 5px 20px;
+    padding: 5px 2px;
     color: rgb(255, 255, 255);
 }
 .card-view .item p{
-    padding: 0 20px;
+    padding: 0 2px;
 
 }
 .card-view .item .date{
