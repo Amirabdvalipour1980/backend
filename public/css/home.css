@@ -194,3 +194,9 @@ img{
   color: #666;
   margin-bottom: 10px;
 }
+img {
+  width: 20px;   /* عرض عکس */
+  height: 15px;  /* ارتفاع عکس */
+  object-fit: cover; /* برش ملایم تا تناسب حفظ بشه */
+  border-radius: 8px; /* گوشه‌ها گرد بشن (اختیاری) */
+}
