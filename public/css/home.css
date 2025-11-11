@@ -155,7 +155,7 @@ img{
   display: flex;
   flex-wrap: wrap; /* وقتی عرض کم باشه میره خط بعد */
   justify-content: center; /* وسط‌چین کردن آیتم‌ها */
-  gap: 20px; /* فاصله بین عکس‌ها */
+  gap: 50px; /* فاصله بین عکس‌ها */
   margin: 20px 0;
 }
 
@@ -184,7 +184,7 @@ img{
 
 .card-view .item h1 {
   font-size: 18px;
-  margin: 10px 0;
+  margin: 50px 0;
   text-align: center;
 }
 
