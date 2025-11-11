@@ -200,3 +200,9 @@ img {
   object-fit: cover; /* برش ملایم تا تناسب حفظ بشه */
   border-radius: 8px; /* گوشه‌ها گرد بشن (اختیاری) */
 }
+.card-view img {
+  width: 25px;   /* عرض */
+  height: 18px;  /* ارتفاع */
+  object-fit: cover;
+  border-radius: 10px;
+}
