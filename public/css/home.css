@@ -164,7 +164,7 @@ img{
   display: flex;
   flex-direction: column; /* متن زیر عکس قرار بگیره */
   align-items: center;
-  width: 250px; /* عرض هر کارت */
+  width: 100px; /* عرض هر کارت */
   border: 1px solid #ddd;
   border-radius: 10px;
   text-decoration: none;
@@ -178,8 +178,8 @@ img{
 }
 
 .card-view .item img {
-  width: 100%;
-  height: 200px;
+  width: 700%;
+  height: 50px;
   object-fit: cover;
 }
 
