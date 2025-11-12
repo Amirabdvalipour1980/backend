@@ -1,3 +1,4 @@
+/* 
 @font-face {
     font-family: 'iransans';
     src: url('iransans.ttf');
@@ -156,156 +157,22 @@ img{
   display: flex;
   flex-wrap: wrap; /* وقتی عرض کم باشه میره خط بعد
   justify-content: center; /* وسط‌چین کردن آیتم‌ها */
-  gap: 50px; /* فاصله بین عکس‌ها */
-  margin: 20px 0;
-}
+  /* gap: 50px; /* فاصله بین عکس‌ها */
+  /* margin: 20px 0;
+} */ */
 
-.card-view .item {
+ /* card-view .item {
   display: flex;
   flex-direction: column; /* متن زیر عکس قرار بگیره */
-  align-items: center;
+  /* align-items: center;
   width: 100px; /* عرض هر کارت */
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd;
   border-radius: 10px;
   text-decoration: none;
   color: #000;
   overflow: hidden;
   transition: transform 0.3s;
-}
-
-.card-view .item:hover {
-  transform: scale(1.05);
-}
-
-.card-view .item img {
-  width: 70%;
-  height: 50px;
-  object-fit: cover;
-}
-
-.card-view .item h1 {
-  font-size: 18px;
-  margin: 50px 0;
-  text-align: center;
-}
-
-.card-view .item .date {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 10px;
-}
-.card-view {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
-  margin: 20px 0;
-}
-
-.card-view .item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 25px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  text-decoration: none;
-  color: #000;
-  overflow: hidden;
-  transition: transform 0.3s;
-}
-
-.card-view .item:hover {
-  transform: scale(1.05);
-}
-
-.card-view .item img {
-  width: 10%;
-  height: 18px;
-  object-fit: cover;
-}
-
-.card-view .item h1 {
-  font-size: 18px;
-  margin: 10px 0;
-  text-align: center;
-}
-
-.card-view .item .date {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 10px;
-}
-.gallery {
-  text-align: center;
-  margin-top: 50px;
-  padding: 20px;
-}
-
-.gallery h2 {
-  color: blue;
-  border-bottom: 2px solid blue;
-  display: inline-block;
-  padding-bottom: 5px;
-}
-
-.image-gallery {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin-top: 30px;
-}
-
-.card {
-  width: 28px;
-  border: 1px solid #ddd;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s, box-shadow 0.3s;
-  background-color: #fff;
-}
-
-.card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.card img {
-  width: 10%;
-  height: 180px;
-  object-fit: cover;
-}
-
-.card h3 {
-  font-size: 18px;
-  margin: 10px 0 5px;
-  color: #222;
-}
-
-.card p {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 15px;
-}
-.image-gallery {
-    display: flex;              /* تصاویر کنار هم قرار می‌گیرند */
-    justify-content: center;    /* وسط‌چین کردن تصاویر */
-    gap: 20px;                  /* فاصله بین تصاویر */
-    margin: 50px 0;             /* فاصله از بالا و پایین */
-}
-
-.image-gallery img {
-    width: 300px;               /* عرض تصویر */
-    height: auto;               /* ارتفاع متناسب با عرض */
-    max-height: 400px;          /* ارتفاع حداکثر */
-    object-fit: cover;          /* بدون کشیدگی تصویر */
-    border-radius: 10px;        /* گوشه‌های گرد */
-    display: block;
-} 
-
-
+} */ */ */
 
 
 
@@ -322,104 +189,61 @@ img{
 
 
 body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    font-family: 'Tahoma', sans-serif;
+    direction: rtl;
+    text-align: center;
+    background-color: #f9f9f9;
 }
 
-/* نوار بالا */
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #f5f5f5;
-  padding: 15px 40px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-nav .logo {
-  font-weight: bold;
-  font-size: 20px;
-  color: #333;
-}
-
-nav .links a {
-  text-decoration: none;
-  color: #333;
-  margin: 0 10px;
-  transition: color 0.3s;
-}
-
-nav .links a:hover {
-  color: #0071ce;
-}
-
-nav .searchbar input {
-  padding: 6px 10px;
-  border-radius: 20px;
-  border: 1px solid #ccc;
-}
-
-/* گالری */
-.gallery {
-  text-align: center;
-  margin-top: 40px;
-}
-
-.gallery h2 {
-  color: #0071ce;
-  border-bottom: 2px solid #0071ce;
-  display: inline-block;
-  padding-bottom: 5px;
-}
-
+/* گالری تصاویر */
 .image-gallery {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
-  justify-items: center;
-  margin: 40px auto;
-  max-width: 900px;
+    display: flex;
+    flex-wrap: wrap;          /* رفتن به خط بعدی وقتی جا کم باشه */
+    justify-content: center;  /* وسط‌چین کردن */
+    gap: 20px;                /* فاصله بین تصاویر */
+    padding: 30px 10px;
 }
 
 .card {
-  background-color: white;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  width: 90%;
-  max-width: 400px;
-  transition: transform 0.3s, box-shadow 0.3s;
+    width: 45%;               /* دو تصویر کنار هم */
+    max-width: 300px;         /* حداکثر اندازه */
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
 }
 
 .card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
 }
 
 .card img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
 }
 
 .card h3 {
-  font-size: 18px;
-  margin: 10px 0 5px;
-  color: #222;
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #222;
 }
 
 .card p {
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 15px;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
 }
 
-/* واکنش‌گرا */
-@media (max-width: 600px) {
-  .image-gallery {
-    grid-template-columns: 1fr;
-  }
+/* ریسپانسیو برای موبایل */
+@media (max-width: 768px) {
+    .card {
+        width: 90%;  /* در موبایل هر کارت یک ردیف */
+    }
 }
-
