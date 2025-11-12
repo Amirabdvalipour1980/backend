@@ -93,7 +93,7 @@ nav .searchbar input {
   margin-bottom: 15px;
 }
 
-/* واکنش‌گرا (برای موبایل) */
+/* واکنش‌گرا */
 @media (max-width: 600px) {
   .image-gallery {
     grid-template-columns: 1fr;

@@ -49,5 +49,47 @@
         </div>
     </section>
 
+    <!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحه اصلی</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+    <!-- نوار بالا -->
+    <nav>
+        <div class="logo">خانه من</div>
+        <div class="links">
+            <a href="#">صفحه اصلی</a>
+            <a href="#">محصولات</a>
+            <a href="#">تماس با ما</a>
+            <a href="#">درباره ما</a>
+        </div>
+        <div class="searchbar">
+            <input type="text" placeholder="جستجو...">
+        </div>
+    </nav>
+
+    <!-- گالری -->
+    <section class="gallery">
+        <h2>محصولات محبوب</h2>
+        <div class="image-gallery">
+            <% products.forEach((product) => { %>
+                <div class="card">
+                    <img src="<%= product.img %>" alt="<%= product.title %>">
+                    <h3><%= product.title %></h3>
+                    <p><%= product.desc %></p>
+                </div>
+            <% }) %>
+        </div>
+    </section>
+
+</body>
+</html>
+
+
 </body>
 </html>
