@@ -154,7 +154,7 @@ img{
 }
 .card-view {
   display: flex;
-  flex-wrap: wrap; /* وقتی عرض کم باشه میره خط بعد */
+  flex-wrap: wrap; /* وقتی عرض کم باشه میره خط بعد
   justify-content: center; /* وسط‌چین کردن آیتم‌ها */
   gap: 50px; /* فاصله بین عکس‌ها */
   margin: 20px 0;
@@ -303,6 +303,4 @@ img{
     object-fit: cover;          /* بدون کشیدگی تصویر */
     border-radius: 10px;        /* گوشه‌های گرد */
     display: block;
-}
-
-
+} 
