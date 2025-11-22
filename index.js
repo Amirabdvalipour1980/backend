@@ -41,6 +41,33 @@ app.get('/arosi', (req, res) => {
    res.render('arosi', {
    });
 })
+
+
+
+
+
+
+
+
+
+app.get('/j', (req, res) => {
+   res.render('تماس با من', {
+   });
+})
+app.get('/h', (req, res) => {
+   res.render(' مهارت های من', {
+   });
+})
+app.get('/d', (req, res) => {
+   res.render(' درباره من', {
+   });
+})
+
+
+
+
+
+
 app.get('/user-login', (req, res) => {
    var {username,password} = req.query;
    if (username=='hossein' && password=='12345'){
